@@ -1,6 +1,6 @@
 const Discord = require('discord.js')
-const welcome = require('.src/welcome.js')
-const godbye = require('.src/godbye.js')
+const welcome = require('./src/welcome.js')
+const godbye = require('./src/godbye.js')
 
 const bot = new Discord.Client({
   intents: 3267
