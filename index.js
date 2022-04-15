@@ -10,7 +10,7 @@ bot.once('ready', () => {
 })
 
 bot.on('guildMemberAdd', async (member) => {
-  welcome(member, bot)
+    welcome(member, bot)
 })
 bot.on('guildMemberRemove', async (member) => {
   godbye(member, bot)
